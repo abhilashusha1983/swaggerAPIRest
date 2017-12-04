@@ -4,6 +4,6 @@
 
  module.exports = {
      get: function contacts_get(req, res) {
-         res.json(contactsDataHandler.all())
+         res.json(contactsDataHandler.all()+'as')
      }
  };
